@@ -108,6 +108,7 @@ y_pred = clf.predict(X_test)
 # Step 4: Calculate and print the accuracy score
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy * 100:.2f}%")
+print(f"Accuracy: {accuracy * 100:.2f}%")
 #-----------loading the created model-----------#
 joblib.dump(clf, 'firewall_model.pkl')
 
